@@ -39,6 +39,7 @@ body {
 }
 
 .button {
+    transition: 0.1s;
     background-color: rgb(103, 103, 103);
     border: 1px solid black;
     border-left: none;
@@ -60,4 +61,18 @@ body {
 #number-0,
 #clear {
     grid-column: 1 / 3;
+}
+
+.button.clicked {
+    background-color: rgb(123, 123, 123);
+}
+
+.button.number.clicked,
+#dot.clicked {
+    background-color: rgb(153, 153, 153);
+}
+
+.button.operation.clicked,
+#equals.clicked {
+    background-color: rgb(255, 200, 123);
 }
