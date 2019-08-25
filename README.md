@@ -1,5 +1,5 @@
 # Calculator
-This is a simple calculator built with HTML, CSS and JavaScript.
+This is a simple calculator built with HTML, CSS and JavaScript. You can visit it at amdrija.github.io/calculator/
 
 ## How it works
 This calculator uses a simplified version of the [Shunting Yard Algorithm](https://en.wikipedia.org/wiki/Shunting-yard_algorithm) to evaluate expressions. The calculator is made exclusively with HTML, CSS and JavaScript with no framewroks involved.  
